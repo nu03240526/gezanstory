@@ -1,0 +1,16 @@
+<script type=module>
+import { bg, show } from "https://js.sabae.cc/egadv.js";
+await bg(53);
+await show("ここはどこかの山")
+for(;;) {
+  if (await show("この山を下りますか?",["下りる","下りない"])=="はい") {
+  break;
+  }
+  await show("永遠に進まないけどOK?");
+}
+
+const a=await show("下山には丸1日かかるようだ");
+await show("歩き続けて半日");
+await show("まだ町は見えない");
+
+</script>
